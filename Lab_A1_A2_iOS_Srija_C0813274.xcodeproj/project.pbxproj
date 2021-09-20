@@ -14,6 +14,8 @@
 		0445CB3726F83E83008810DE /* Lab_A1_A2_iOS_Srija_C0813274.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0445CB3526F83E83008810DE /* Lab_A1_A2_iOS_Srija_C0813274.xcdatamodeld */; };
 		0445CB3926F83E84008810DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0445CB3826F83E84008810DE /* Assets.xcassets */; };
 		0445CB3C26F83E84008810DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0445CB3A26F83E84008810DE /* LaunchScreen.storyboard */; };
+		0445CB4926F83F14008810DE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445CB4726F83F14008810DE /* Data.swift */; };
+		0445CB4A26F83F14008810DE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445CB4826F83F14008810DE /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0445CB3826F83E84008810DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0445CB3B26F83E84008810DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0445CB3D26F83E84008810DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0445CB4726F83F14008810DE /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0445CB4826F83F14008810DE /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				0445CB2C26F83E83008810DE /* AppDelegate.swift */,
 				0445CB2E26F83E83008810DE /* SceneDelegate.swift */,
 				0445CB3026F83E83008810DE /* ViewController.swift */,
+				0445CB4726F83F14008810DE /* Data.swift */,
+				0445CB4826F83F14008810DE /* MainTableViewController.swift */,
 				0445CB3226F83E83008810DE /* Main.storyboard */,
 				0445CB3826F83E84008810DE /* Assets.xcassets */,
 				0445CB3A26F83E84008810DE /* LaunchScreen.storyboard */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0445CB3726F83E83008810DE /* Lab_A1_A2_iOS_Srija_C0813274.xcdatamodeld in Sources */,
+				0445CB4926F83F14008810DE /* Data.swift in Sources */,
 				0445CB3126F83E83008810DE /* ViewController.swift in Sources */,
 				0445CB2D26F83E83008810DE /* AppDelegate.swift in Sources */,
+				0445CB4A26F83F14008810DE /* MainTableViewController.swift in Sources */,
 				0445CB2F26F83E83008810DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
